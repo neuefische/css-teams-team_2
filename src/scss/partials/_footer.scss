@@ -4,10 +4,25 @@
   background-color: $primary-color;
   height: 63px;
   width: 100vw;
-  position: sticky;
+
+  position: fixed;
+  left: 0;
+  bottom: 0;
   &__nav {
     width: 100%;
     display: flex;
     justify-content: space-around;
+
+    &__button {
+      width: 25%;
+      border: none;
+      border-right: solid 1px black;
+      background-color: transparent;
+      outline: none;
+
+      i {
+        font-size: 20px;
+      }
+    }
   }
 }
