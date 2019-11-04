@@ -13,30 +13,53 @@
 
   &__card {
     display: flex;
-    height: 250px;
-    width: 80%;
-    background-color: $background-color;
+    justify-content: center;
+    height: 200px;
+    width: 95%;
+    background-color: #909090;
     margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #b2cecf;
 
     &__imgcontainer {
-      min-height: 250px;
+      width: 230px;
+      border-start-start-radius: 5px;
       overflow: hidden;
-      max-width: 33%;
+      height: 200px;
     }
 
     &__image {
-      max-width: auto;
-      max-height: auto;
-      object-fit: cover;
-      object-position: top;
+      height: 100%;
+      width: 100%;
+      object-position: center;
+      object-fit: fill;
+      border: 1px solid #b2cecf;
     }
 
     &__text {
       display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
       flex-direction: column;
       justify-content: center;
       width: 66%;
-      padding-left: 30px;
+      h3 {
+        margin: 0;
+        padding: 0;
+      }
+      button {
+        all: unset;
+        background-color: lightgray;
+        padding: 5px 10px 5px 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+        text-decoration: none;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
     }
   }
 }
