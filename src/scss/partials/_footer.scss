@@ -1,9 +1,10 @@
 .footer {
   display: flex;
   justify-content: center;
-  background-color: $primary-color;
+  background-color: $footer-background;
   height: 63px;
   width: 100vw;
+  box-shadow: 0px -6px 44px -6px rgba(112, 94, 112, 1);
 
   position: fixed;
   left: 0;
@@ -22,6 +23,7 @@
 
       i {
         font-size: 20px;
+        color: $footer-text-color;
       }
     }
   }
