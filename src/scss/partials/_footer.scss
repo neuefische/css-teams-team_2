@@ -2,6 +2,12 @@
   display: flex;
   justify-content: center;
   background-color: $primary-color;
-  height: 15%;
+  height: 63px;
   width: 100vw;
+  position: sticky;
+  &__nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
 }
