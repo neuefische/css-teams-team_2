@@ -1,0 +1,26 @@
+{
+  "name": "css-teams-team_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neuefische/css-teams-team_2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neuefische/css-teams-team_2/issues"
+  },
+  "homepage": "https://github.com/neuefische/css-teams-team_2#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "posthtml-include": "^1.3.2",
+    "sass": "^1.23.3"
+  }
+}
