@@ -4,7 +4,7 @@
   justify-content: center;
   //height: 100%;
   width: 100vw;
-  background-color: $secondary-color;
+  background-color: $content-background;
   align-items: center;
   overflow: auto;
   margin-bottom: 63px;
@@ -16,16 +16,16 @@
     justify-content: center;
     height: 200px;
     width: 95%;
-    background-color: #909090;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: 1px solid #b2cecf;
+    background-color: $card-background;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid #b2cecf;
 
     &__imgcontainer {
-      width: 230px;
-      border-start-start-radius: 5px;
+      width: 233px;
+      border-radius: 5px;
       overflow: hidden;
-      height: 200px;
+      height: 195px;
     }
 
     &__image {
@@ -33,7 +33,7 @@
       width: 100%;
       object-position: center;
       object-fit: fill;
-      border: 1px solid #b2cecf;
+      border-right: 1px solid black;
     }
 
     &__text {
@@ -50,7 +50,8 @@
       }
       button {
         all: unset;
-        background-color: lightgray;
+        font-size: 12px;
+        background-color: $card-button-color;
         padding: 5px 10px 5px 10px;
         margin-top: 20px;
         border-radius: 5px;
