@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
+  width: 100vw;
+  background-color: $secondary-color;
+  align-items: center;
+
+  &__card {
+    display: flex;
+    height: 150px;
+    width: 80%;
+    background-color: $background-color;
+    margin-top: 10px;
+  }
+}
