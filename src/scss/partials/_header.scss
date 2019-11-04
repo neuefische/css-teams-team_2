@@ -4,6 +4,11 @@
   background-color: $primary-color;
   height: 50px;
   width: 100vw;
+  position: fixed;
+  //margin: 20% 0 0 0;
+  // z-index: 1;
+  top: 0;
+  left: 0;
   h1 {
     font-size: 20px;
     font-weight: bold;
