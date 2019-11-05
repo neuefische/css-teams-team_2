@@ -13,8 +13,8 @@
 
   &__card {
     display: flex;
-    justify-content: center;
-    height: 200px;
+    justify-content: space-between;
+    height: 199px;
     width: 95%;
     background-color: $card-background;
     margin-top: 20px;
@@ -23,7 +23,7 @@
 
     &__imgcontainer {
       width: 233px;
-      border-radius: 5px;
+      border-radius: 5px 0px 0px 5px;
       overflow: hidden;
       height: 195px;
     }
@@ -43,6 +43,7 @@
       align-items: center;
       flex-direction: column;
       justify-content: center;
+      flex: 1;
       width: 66%;
       h3 {
         margin: 0;
