@@ -1,6 +1,7 @@
 export const cars = [
   {
     name: "Audi QX",
+    alt: "auto",
     price: "50.000",
     description: "Best car in the world!",
     img:
@@ -8,6 +9,7 @@ export const cars = [
   },
   {
     name: "Jaguar Model O",
+    alt: "auto",
     price: "50.000",
     description: "Best car in the world!",
     img:
@@ -15,6 +17,7 @@ export const cars = [
   },
   {
     name: "Mercedes Benz J",
+    alt: "auto",
     price: "50.000",
     description: "Best car in the world!",
     img:
@@ -22,6 +25,7 @@ export const cars = [
   },
   {
     name: "Trabant",
+    alt: "auto",
     price: "50.000",
     description: "Best car in the world!",
     img:
